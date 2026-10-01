@@ -28,12 +28,10 @@ Website ini dibuat menggunakan HTML, CSS, dan JavaScript dengan tampilan yang re
 <img width="950" height="443" alt="ss web1" src="https://github.com/user-attachments/assets/eeacb70d-6612-4f38-b306-b6dd5a58b3df" />
 
 ## Deployment
-## Repository
-
 Website dapat diakses melalui:
-
 **[Portfolio Website](https://veyy-prog.github.io/portofolio-revietha/)**
 
-Source code website:
+## Repository
 
+Source code website:
 **[GitHub Repository](https://github.com/veyy-prog/portofolio-revietha.git)**
