@@ -23,8 +23,6 @@ Website ini dibuat menggunakan HTML, CSS, dan JavaScript dengan tampilan yang re
 ## Screenshot
 
 ### Tampilan Website
-
-<img width="622" height="113" alt="ss web" src="https://github.com/user-attachments/assets/de7e4a13-4a8d-4cc1-b529-881b4d381f04" />
 <img width="950" height="443" alt="ss web1" src="https://github.com/user-attachments/assets/eeacb70d-6612-4f38-b306-b6dd5a58b3df" />
 
 ## Deployment
