@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Revietha Nur Hidayah | Portofolio</title>
+<meta name="description" content="Portofolio Revietha Nur Hidayah, mahasiswa Teknologi Informasi Universitas Jember. Organisasi, kepanitiaan, dan desain.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a href="#beranda" class="logo">revietha<span>.</span></a>
+    <nav id="menu" class="menu" aria-label="Navigasi utama">
+      <a href="#tentang">Tentang</a>
+      <a href="#pengalaman">Pengalaman</a>
+      <a href="#tools">Tools</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeBtn" class="icon-btn" aria-label="Ganti tema">Tema</button>
+      <button id="menuBtn" class="icon-btn menu-btn" aria-label="Buka menu" aria-expanded="false" aria-controls="menu">Menu</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="beranda" class="hero container">
+    <div class="hero-text">
+      <p class="status"><span class="dot"></span> Mahasiswa TI, aktif organisasi</p>
+      <h1>Revietha<br>Nur Hidayah</h1>
+      <p class="lead">Suka mengurus acara, menyebarkan informasi, dan merapikan tampilan. Dari rapat BPM sampai desain publikasi, saya biasanya ada di tengah-tengahnya.</p>
+      <div class="actions">
+        <a href="#pengalaman" class="btn btn-primary">Lihat pengalaman</a>
+        <a href="#kontak" class="btn btn-ghost">Hubungi saya</a>
+      </div>
+    </div>
+    <aside class="card-id" aria-label="Ringkasan profil">
+      <span class="sticker s1">Humas</span>
+      <span class="sticker s2">PDD</span>
+      <span class="sticker s3">Acara</span>
+      <div class="avatar" aria-hidden="true">RN</div>
+      <dl>
+        <dt>Kampus</dt><dd>Universitas Jember</dd>
+        <dt>Fakultas</dt><dd>Ilmu Komputer</dd>
+        <dt>Prodi</dt><dd>Teknologi Informasi</dd>
+        <dt>Jam di Jember</dt><dd id="clock">--:--</dd>
+      </dl>
+    </aside>
+  </section>
+
+  <section id="tentang" class="section container">
+    <h2>Tentang saya</h2>
+    <div class="about">
+      <p>Saya mahasiswa Teknologi Informasi di Fakultas Ilmu Komputer Universitas Jember. Sejak awal kuliah saya memilih ikut organisasi dan kepanitiaan, karena belajar bareng orang lain terasa lebih cepat daripada belajar sendiri.</p>
+      <p>Di BPM Fasilkom UNEJ saya mengurus informasi dan hubungan masyarakat. Di Lab Infratek saya masuk divisi Pengembangan Ilmu. Di tiap kepanitiaan saya pegang acara, humas, atau publikasi dan desain.</p>
+    </div>
+  </section>
+
+  <section id="pengalaman" class="section container">
+    <h2>Pengalaman</h2>
+    <div class="filters" role="group" aria-label="Filter pengalaman">
+      <button class="chip active" data-filter="semua">Semua</button>
+      <button class="chip" data-filter="org">Organisasi</button>
+      <button class="chip" data-filter="lab">Laboratorium</button>
+      <button class="chip" data-filter="panitia">Kepanitiaan</button>
+    </div>
+    <ul class="xp">
+      <li class="row" data-cat="org">
+        <div class="row-main">
+          <h3>BPM Fasilkom UNEJ</h3>
+          <p>Lembaga legislasi tertinggi tingkat fakultas. Saya mengelola informasi dan komunikasi lembaga ke mahasiswa.</p>
+        </div>
+        <div class="row-meta"><span class="role">Staf Kominfo dan Humas</span><span class="tag">Organisasi</span></div>
+      </li>
+      <li class="row" data-cat="lab">
+        <div class="row-main">
+          <h3>Lab Infratek</h3>
+          <p>Belajar dan berbagi ilmu bersama anggota laboratorium lewat kegiatan divisi.</p>
+        </div>
+        <div class="row-meta"><span class="role">Divisi Pengembangan Ilmu</span><span class="tag">Laboratorium</span></div>
+      </li>
+      <li class="row" data-cat="panitia">
+        <div class="row-main">
+          <h3>KPUM</h3>
+          <p>Merancang dan menjalankan rangkaian acara.</p>
+        </div>
+        <div class="row-meta"><span class="role">Staf Acara</span><span class="tag">Kepanitiaan</span></div>
+      </li>
+      <li class="row" data-cat="panitia">
+        <div class="row-main">
+          <h3>PKKMB Fasilkom UNEJ</h3>
+          <p>Mendukung acara penyambutan mahasiswa baru.</p>
+        </div>
+        <div class="row-meta"><span class="role">Staf Acara</span><span class="tag">Kepanitiaan</span></div>
+      </li>
+      <li class="row" data-cat="panitia">
+        <div class="row-main">
+          <h3>Konfesma</h3>
+          <p>Membuat publikasi, dokumentasi, dan desain kegiatan.</p>
+        </div>
+        <div class="row-meta"><span class="role">PDD</span><span class="tag">Kepanitiaan</span></div>
+      </li>
+      <li class="row" data-cat="panitia">
+        <div class="row-main">
+          <h3>Sekolah Legislasi</h3>
+          <p>Membuat publikasi, dokumentasi, dan desain kegiatan.</p>
+        </div>
+        <div class="row-meta"><span class="role">PDD</span><span class="tag">Kepanitiaan</span></div>
+      </li>
+      <li class="row" data-cat="panitia">
+        <div class="row-main">
+          <h3>Sosialisasi Serap Aspirasi</h3>
+          <p>Menyebarkan informasi dan menjaga komunikasi dengan peserta.</p>
+        </div>
+        <div class="row-meta"><span class="role">Humas</span><span class="tag">Kepanitiaan</span></div>
+      </li>
+    </ul>
+  </section>
+
+  <section id="tools" class="section container">
+    <h2>Tools yang saya pakai</h2>
+    <p class="sub">Untuk publikasi, dokumentasi, dan desain kegiatan.</p>
+    <div class="tools">
+      <article class="tool">
+        <img src="img/canva.png" alt="Logo Canva" height="56" loading="lazy">
+        <h3>Canva</h3>
+        <p>Poster, feed, dan materi publikasi cepat.</p>
+      </article>
+      <article class="tool">
+        <img src="img/figma.png" alt="Logo Figma" height="56" loading="lazy">
+        <h3>Figma</h3>
+        <p>Rancang tata letak dan tampilan antarmuka.</p>
+      </article>
+      <article class="tool">
+        <img src="img/capcut.png" alt="Logo CapCut" height="56" loading="lazy">
+        <h3>CapCut</h3>
+        <p>Edit video dokumentasi dan konten singkat.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="kontak" class="section container">
+    <h2>Kontak</h2>
+    <p class="sub">Ada pertanyaan atau ajakan kolaborasi? Tulis di sini.</p>
+    <form id="form" class="form" novalidate>
+      <label>Nama
+        <input type="text" id="nama" autocomplete="name">
+        <small class="err"></small>
+      </label>
+      <label>Email
+        <input type="email" id="email" autocomplete="email">
+        <small class="err"></small>
+      </label>
+      <label>Pesan
+        <textarea id="pesan" rows="4"></textarea>
+        <small class="err"></small>
+      </label>
+      <button type="submit" class="btn btn-primary">Kirim pesan</button>
+      <p id="notif" class="notif" role="status"></p>
+    </form>
+    <!-- Tambahkan LinkedIn atau GitHub di sini kalau sudah punya -->
+    <p class="socials">
+      <a href="https://www.instagram.com/reviethaa" target="_blank" rel="noopener">Instagram @reviethaa</a>
+    </p>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Revietha Nur Hidayah. Dibuat dengan HTML, CSS, dan JavaScript.</p>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
